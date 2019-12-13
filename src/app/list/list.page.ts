@@ -21,7 +21,7 @@ export class ListPage implements OnInit {
     'bluetooth',
     'build'
   ];
-  public items: string[] = ['Tom'];
+  public items: string[] = [];
   constructor(
     private sharedDataFooSvc: SharedDataService
     , private swapiSvc: SwapiService
